@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .bg-black.text-white.py-2.px-6.flex.justify-between
+      a.text-4xl(href='/') CWNN
+      .flex
+        a.mr-2(href='/about') About
+        .ml-2 contact
+    block content
